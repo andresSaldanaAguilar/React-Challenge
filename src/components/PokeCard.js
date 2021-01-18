@@ -20,7 +20,9 @@ const PokeCard = (props) => {
       <a href={pokemon.video} target="_blank" rel="noreferrer">
         Know more
       </a>
-      <h2>Sprites ({sprites.length} in total)</h2>
+      <h2>
+        Sprites ({spriteIdx + 1} of {sprites.length})
+      </h2>
       <div className="pokeCard">
         <figcaption className="pokeCard-title">
           {sprites[spriteIdx][0]}
