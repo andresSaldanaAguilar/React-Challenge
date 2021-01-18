@@ -1,0 +1,18 @@
+.pokeCard {
+  width: 230px;
+  height: 330px;
+  border: 3px solid rgb(247, 230, 79);
+  margin: 0 auto;
+  margin-bottom: 20px;
+  background: rgb(248, 243, 200);
+}
+
+.pokeCard-title {
+  margin: 10px 0 10px 15px;
+  text-align: left;
+}
+
+.pokeCard-illustation {
+  height: 200px;
+  border: 3px solid rgb(247, 202, 79);
+}
